@@ -72,14 +72,93 @@
 //       }
 // }
 
-public class Main{
-      static void mymethod(String fname){
-            System.out.println(fname + " reference");
-      }
-      public static void main(String[] args) {
 
-            mymethod("Value passed");
+/*passing value to method */
+
+// public class Main{
+//       static void mymethod(String fname){
+//             System.out.println(fname + " reference");
+//       }
+//       public static void main(String[] args) {
+
+//             mymethod("Value passed");
 
             
-      }
-}
+//       }
+// }
+
+/*Passing multiple values to method */
+
+// public class Main{
+//       static void mymethod(String fname, int n){
+//             System.out.println(fname + " age is " + n);
+//       }
+//       public static void main(String[] args) {
+
+//             mymethod("Nihal",22);
+
+            
+//       }
+// }
+
+/*we use void when we dont return any thing */
+/*if we want to return int then we have to use static int instead of static void */
+/*whichever value we want to return we have to use it for int static int
+ for double static double
+ for string static string
+ */
+
+// public class Main{
+//       static int mymethod(int x){
+//             return 5 +x ;
+            
+//       }
+//       public static void main(String[] args) {
+
+//            System.out.println( mymethod(10));;
+
+            
+//       }
+// }
+
+/*Method overloading : With method overloading, multiple methods can have the same name with different parameters
+*/
+// public class Main{
+
+//       static int plusmethod(int x, int y){
+//             return x + y ;
+//       }
+
+//       static double plusmethod(double x, double y){
+//             return x+ y ;
+//       }
+//       public static void main(String[] args) {
+
+//             int mynum1 = plusmethod(10, 20);
+//             double mynum2 = plusmethod(4.3, 3.4);
+//             System.out.println("int " + mynum1);
+//             System.out.println("double " + mynum2);
+            
+//       }
+// }
+
+/** taking Input from user */
+
+// import java.util.Scanner;
+
+// public class Main{
+//       public static void main(String[] args) {
+//             Scanner myObj = new Scanner(System.in);
+//             System.out.println("Enter name, age and salary ");
+
+//             String name = myObj.nextLine();
+
+//             int age = myObj.nextInt();
+
+//             double salary = myObj.nextDouble();
+
+//             System.out.println("Name : " + name);
+//             System.out.println("Age : " + age);
+//             System.out.println("Salary : "  + salary);
+//       }
+// }
