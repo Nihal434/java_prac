@@ -162,3 +162,97 @@
 //             System.out.println("Salary : "  + salary);
 //       }
 // }
+
+/*oops in java */
+/*Class name always start with capital and method name start with small alphabet */
+
+/*In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. 
+At the time of calling constructor, memory for the object is allocated in the memory.
+
+Using constructor we can use same parameter for different methods same as python
+There are two rules defined for the constructor.
+1. Constructor name must be the same as its class name
+2. A Constructor must have no explicit return type
+3. A Java constructor cannot be abstract, static, final, and synchronized
+4. A Java constructor cannot be private, protected, public, or package-private
+5. A Java constructor cannot be varargs
+
+There are two types of constructors in Java:
+1. Default constructor (no-arg constructor) : A constructor is called "Default Constructor" when it doesn't have any parameter.
+2. Parameterized constructor : A constructor which has a specific number of parameters is called a parameterized constructor.
+3. Copy constructor : A constructor which copy data one object to another it is user defined
+In Java, a class can have only one default constructor.
+
+Why use the parameterized constructor?
+The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+
+
+*/
+// class pen{ //creating class
+//       String type;
+//       int price;
+//       String color;
+//       public void write(){ //method inside class
+//             System.out.println(type + " of rupees " + price);
+//       }
+//       public void printColor(){
+//             System.out.println("Pen of color is " + this.color);
+//       }
+
+// /*default constructor */
+//       pen() { //name of class and constructor must be same one class have only one constructor
+//             System.out.println(" Default Constructor created");
+//       }
+// }
+
+
+// public class Main{
+//       public static void main(String[] args) {
+
+//             pen mypen = new pen(); //Creating an object
+//             mypen.type = "Ball pen"; //assigning value to object
+//             mypen.price = 100;
+//             mypen.write(); //calling the method for object
+
+//             // pen mypen2 = new pen(); //new word creates new location in heap memory
+//             // mypen2.type = "Gel pen";
+//             // mypen2.color = "Red";
+//             // mypen2.printColor();
+
+            
+            
+//       }
+// }
+
+
+/*Parametrized constructor */
+
+// class Student{ //Creating class
+//       String name;
+//       int age;
+
+//       Student(String name , int age){ //parametrized constructor
+//             this.name = name;
+//             this.age = age;
+//       }
+
+//       public void printinfo(){ //creating class method
+//             System.out.println(name + " and " + age);
+//       }
+
+//       public void age(){
+//             System.out.println("Name is " + name);
+//       }
+
+// }
+// public class Main{
+//       public static void main(String[] args) {
+//             // System.out.println("d");
+
+//             Student s1 = new Student("Nihal" , 20); //passing value to parmetrized constructor
+//             s1.printinfo();
+//             s1.age();
+//       }
+// }
+
+/*Polymorphism */
