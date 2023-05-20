@@ -142,6 +142,8 @@
 //       }
 // }
 
+// import java.util.jar.Attributes.Name;
+
 /** taking Input from user */
 
 // import java.util.Scanner;
@@ -255,4 +257,160 @@ The parameterized constructor is used to provide different values to distinct ob
 //       }
 // }
 
-/*Polymorphism */
+/*Polymorphism : same function with different purpose two types
+1.compile time : error come while compiling
+2.run time: error come while running
+ 1.compile time polymorphism :
+
+ for compile polymorphism at least one parameter should be different
+ for example we cah have different passing parameter or different return type
+ such as one can have void and one can have static 
+ * 
+ * 
+ * compile time poly gives error while compiling te code which developer can handle while run time poly gives error while running means after
+  production of application which will impact the user so try to use compile time poly instead of run time poly
+ 
+*/
+
+// class Student{
+//       String name;
+//       int age;
+
+
+//       public void printinfo(int age){
+//             System.out.println("age : " + age);
+//       }
+
+//       public void printinfo(String name){
+//             System.out.println("name : " + name);
+//       }
+
+//       public void printinfo(String name , int age){
+//             System.out.println("name : " + name +" and " + "age : " + age);
+//       }
+// }
+
+// public class Main{
+//       public static void main(String[] args) {
+//             Student s1 = new Student();
+//             s1.name = "nihal";
+//             s1.age = 20;
+//             s1.printinfo(s1.age);
+//             s1.printinfo(s1.name);
+//             s1.printinfo(s1.name,s1.age);
+
+//       }
+// }
+
+
+/*Inheritance : Increases reusibility */
+
+//1. single level inheritance
+
+/*class Shape{
+      String color;
+      public void area(){
+            System.out.println("Displays area");
+      }
+}
+
+class Triangle extends Shape{   //Triangle class inheriting property of shape class
+      public void area(int l,int h){
+            System.out.println(0.5*l*h);
+
+      }
+
+
+
+}
+
+class Main{
+      public static void main(String[] args) {
+
+            Triangle tri = new Triangle();
+            tri.color = "red";
+            tri.area(2,3 );
+            
+      }
+}
+*/
+
+//2.Multilevel inheritance
+
+/*class Shape{
+      String color;
+      public void areadis(){
+            System.out.println("Displays color " + color);
+      }
+}
+
+class Triangle extends Shape{   //Triangle class inheriting property of shape class
+      public void area(int l,int h){
+            System.out.println(0.5*l*h);
+
+      }
+}
+
+class EquilateralTriangle extends Triangle{
+      public void area(int l,int h){
+            System.out.println(0.5*l*h);
+            
+      }
+}
+
+class Main{
+      public static void main(String[] args) {
+
+            EquilateralTriangle tri = new EquilateralTriangle();
+            tri.color = "red";
+            tri.area(2,3 );
+            tri.areadis();
+            
+      }
+}*/
+
+//3. hierarchial inheritance : only one parent have multiple child
+
+/*class Shape{ //Parent class
+      String color;
+      public void areadis(){
+            System.out.println("Displays color " + color);
+      }
+}
+
+class Triangle extends Shape{   //Triangle class inheriting property of shape class
+      public void area(int l,int h){
+            System.out.println(0.5*l*h);
+
+      }
+}
+
+class EquilateralTriangle extends Shape{ //child class
+      public void area(int l,int h){
+            System.out.println(0.5*l*h);
+            
+      }
+}
+
+class Main{
+      public static void main(String[] args) {
+
+            EquilateralTriangle tri = new EquilateralTriangle();
+            tri.color = "red";
+            tri.area(2,3 );
+            tri.areadis();
+            
+      }
+}*/
+
+//4. hybrid inheritance : combination of all types of inheritance
+
+
+
+
+
+
+  
+
+
+
