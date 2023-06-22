@@ -1,3 +1,4 @@
+/* */
 /*First we have to create a file with .java extension
  class name and file name must be same and should start with Capital
  to extecute we to to run first javac filename.java it convert filename.java to filename.class file which can run on any os
@@ -405,6 +406,25 @@ class Main{
 
 //4. hybrid inheritance : combination of all types of inheritance
 
+
+/*Packages
+ two type : built in and user built packages
+ */
+/*import bank.*;
+
+public class Main{
+      public static void main(String[] args) {
+            bank.Account acc1 = new bank.Account();
+            acc1.name = "asa";
+
+            
+      }
+}
+*/
+//Abstraction
+/*abstraction : concept of hiding the implementation details
+ can be done using interfaces or by building abstract classes 
+*/
 
 
 
