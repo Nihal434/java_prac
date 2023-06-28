@@ -426,6 +426,15 @@ public class Main{
  can be done using interfaces or by building abstract classes 
 */
 
+class Pen{
+      
+}
+public class Main{
+      public static void main(String[] args) {
+            
+      }
+
+}
 
 
 
