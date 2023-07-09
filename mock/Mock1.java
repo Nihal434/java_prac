@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-class Solution{
+  class Solution{
 
     // Que1. solution
 
@@ -46,6 +46,14 @@ class Solution{
     }
 }
 public class Mock1 {
+
+    public class InnerMock1 {
+    
+        void mtd(){
+            System.out.println("sss");
+
+       }
+    }
 
     public static void main(String[] args) {
 
